@@ -1,11 +1,11 @@
 cmake_minimum_required(VERSION 2.8)
 
-set(mdapi thostmduserapi_se_6.6.7_20220304)
+set(mdapi thostmduserapi_se_6.3.19)
 project(${mdapi})
 
 if(${CMAKE_SYSTEM_NAME} MATCHES "Windows")
-  set(boost_include E:/boost_1_73_0)
-  set(boost_lib E:/boost_1_73_0/stage/lib)
+  set(boost_include D:/boost_1_78_0)
+  set(boost_lib D:/boost_1_78_0/stage/lib)
 else()
   set(boost_include /usr/local/include)
   set(boost_lib /usr/local/lib)
@@ -13,7 +13,7 @@ endif()
 
 if(${CMAKE_SYSTEM_NAME} MATCHES "Windows")
   set(CMAKE_CXX_FLAGS_RELEASE "${CMAKE_CXX_FLAGS_RELEASE} /MT")
-  add_definitions(-D ISLIB -D LIB_MD_API_EXPORT -D V6_6_7)
+  add_definitions(-D ISLIB -D LIB_MD_API_EXPORT -D V6_3_19)
 else()
   add_compile_options(-std=c++11 -pthread)
 endif()

@@ -1,11 +1,11 @@
 cmake_minimum_required(VERSION 2.8)
 
-set(mdapi thostmduserapi_se_6.3.15_20190220)
+set(mdapi thostmduserapi_se_6.3.15)
 project(${mdapi})
 
 if(${CMAKE_SYSTEM_NAME} MATCHES "Windows")
-  set(boost_include E:/boost_1_73_0)
-  set(boost_lib E:/boost_1_73_0/stage/lib)
+  set(boost_include D:/boost_1_78_0)
+  set(boost_lib D:/boost_1_78_0/stage/lib)
 else()
   set(boost_include /usr/local/include)
   set(boost_lib /usr/local/lib)
