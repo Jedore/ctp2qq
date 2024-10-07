@@ -16,7 +16,17 @@ CThostFtdcMdApi* CThostFtdcMdApi::CreateFtdcMdApi(const char* pszFlowPath, const
 
 const char *CThostFtdcMdApi::GetApiVersion()
 {
-#ifdef V6_6_7
+#ifdef V6_7_7
+    return "V6_7_7";
+#elif V6_7_2
+    return "V6_7_2";
+#elif V6_7_1
+    return "V6_7_1";
+#elif V6_7_0
+    return "V6_7_0";
+#elif V6_6_9
+    return "V6_6_9";
+#elif V6_6_7
 	return "V6_6_7";
 #elif V6_6_1_P1
 	return "V6_6_1_P1";
