@@ -1,5 +1,7 @@
 # ctp2qq
 
+**严重参考 https://github.com/openctp/openctp/blob/master/ctp2QQ** 
+
 ## 准备
 
 - Window 10
