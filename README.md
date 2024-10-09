@@ -10,6 +10,7 @@
     - VS 2022
     - Boost 1.78
 - Debian 12
+    - g++ 12.2.0
 
 ## Win 10 安装 Boost 1.78
 
