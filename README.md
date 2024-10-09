@@ -1,6 +1,8 @@
 # ctp2qq
 
-**严重参考 https://github.com/openctp/openctp/blob/master/ctp2QQ** 
+编译多个CTP版本以接入腾讯行情（使用参考[openctp-ctp-channels](https://github.com/Jedore/openctp-ctp-channels)）
+
+> 严重参考 https://github.com/openctp/openctp/blob/master/ctp2QQ
 
 ## 准备
 
